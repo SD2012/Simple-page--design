@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+	<title> Nav Heading</title>
+	<style type="text/css">
+	body{
+		background-color: gray;
+		margin: 0px;
+	}
+	section{
+		background-color: white;
+		padding: 10px;
+	}
+	.header{
+		display: flex;
+		text-align: center;
+	}
+	.subPart{
+		flex:1;
+	}
+	.subPart1{
+		flex:2;
+	}
+	.subPart2{
+		flex:5;
+	}
+	.searchPart{
+		flex:3;
+	}
+	.account{
+		flex:2;
+		display: flex;
+	}
+	
+	.search-box{
+		margin: 10px;
+		text-align: center;
+	}
+	input:hover{
+	text-shadow: 1px 1px 2px #7f3f98;
+	transform: scale(1.01,1.08);
+	}
+	#search{
+		background-image: url("images/search.jpg");
+		background-repeat: no-repeat; 
+		background-position: top right;
+		background-size: 15% 100%;
+		padding: 5px 10px;
+		padding-left: 30px;
+		border: 1px solid gray;
+		border-radius: 5px;
+		outline: none;
+	}
+	#text{
+		text-align: left;
+	}
+	#text:hover{
+		text-shadow: 1px 1px 2px #7f3f98;
+		transform: scale(1.01,1.08);
+	}
+	#text--second{
+		text-align: left;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#text--second:hover{
+		text-shadow: 1px 1px 2px #7f3f98;
+		transform: scale(1.01,1.08);
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	a:hover{
+		text-shadow: 1px 1px 2px #7f3f98;
+		transform: scale(1.01,1.08);
+	}
+
+	img{
+		height: 30px;
+		width: 20px;
+	}
+		img:hover{
+		box-shadow: 1px 1px 2px #7f3f98;
+		transform: scale(1.01,1.08);
+	}
+	</style>
+</head>
+<body>
+	<section>
+		<div class=" header">
+			<div class="account">
+				<div class="subPart">
+				 	<img src="images/cub.png" alt="cub">
+				</div>
+				<div class="subPart2" id="text--second">
+				 Shankar Dabade
+				</div>
+			</div>
+			<div class="subPart2">
+				<nav class="header">
+					<a href="#" class="subPart"> Home </a>
+					<a href="#" class="subPart"> About </a>
+					<a href="#" class="subPart"> Services </a>
+					<a href="#" class="subPart"> Blog </a>
+					<a href="#" class="subPart"> Contact </a>
+				</nav>
+			</div>
+			<div class="searchPart" class="search-box">
+				<input type="text" placeholder="Search By Name" name="search-bar" id="search">
+			</div>
+			<div class="account">
+				<div >
+					<img src=" images/bell.png" alt=" bell-icon">
+				</div>
+				<div class="subPart">
+					<img src=" images/msg.png" alt=" message-icon">
+				</div>
+				<div class="account">
+					<div class="subPart">
+				 		<img src="images/img.png" alt="cub">
+					</div>
+					<div class="subPart2" id="text">
+						 Shankar 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

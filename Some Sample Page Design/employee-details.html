@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+	<title> Employe Details</title>
+	<style type="text/css">
+	body{
+		background-color: rgb(144,214,198);
+	}
+	 .contener{
+		height: 400px;
+		background-color: white;
+		width: 750px;
+		margin: 60px 0px 60px 300px;
+	}  
+	.header{
+		display: flex;
+		width: 700px;
+		padding-top: 50px;
+		justify-content: space-between;
+		
+	}  
+	.msg{
+		font-size: 27px;
+		margin-left: 10px;
+	}
+	.button{
+		margin-right: -40px;
+		padding:10px;
+		border-radius: 10px;
+		background-color: blue;
+	}
+	.table{
+	margin: 20px 10px 20px 10px;
+	}
+
+	table {
+ 	border-collapse: collapse;
+ 	width: 100%;
+	text-align: center;
+	}
+
+	table, td, th {
+ 	 border: 1px solid black;
+ 	 height: 50px;
+	}
+	span{
+		font-weight: bold;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	img{
+		width: 40px;
+		height: 40px;
+	}
+	</style>
+</head>
+<body>
+	<section>
+		<div class="contener">
+			<div class="header">
+				<div class="msg">
+					Empoloyee <span>Details</span>
+				</div>
+				<div class="button"> 
+					<a href=""> + Add new</a>
+				</div>
+			</div>
+			<div class="table">
+				<table >
+					<tr>
+						<th>Name</th>
+						<th>Department</th>
+						<th>Phone-No</th>
+						<th>Action</th>
+					</tr>
+					<tr>	
+						<td>John Doe</td>
+						<td>Administration</td>
+						<td>()171)555-222</td>
+						<td>
+							<a href=""><img src="images/edit.jpg"> </a>
+							<a href=""> <img src="images/delete.jpg"></a>
+						</td>
+					</tr>
+					<tr >	
+						<td>Peter Parker</td>
+						<td>Custmer Services</td>
+						<td>(313)555-5735</td>
+						<td>
+							<a href=""><img src="images/edit.jpg"> </a>
+							<a href=""> <img src="images/delete.jpg"></a>
+						</td>
+					</tr>
+					<tr>	
+						<td>Fran Wilson</td>
+						<td>Human Resources</td>
+						<td>(503)555-9931</td>
+						<td>
+							<a href=""><img src="images/edit.jpg"> </a>
+							<a href=""> <img src="images/delete.jpg"></a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

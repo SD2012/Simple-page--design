@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<title> Member-login</title>
+	<style type="text/css">
+	body{
+		background-color: lightgray;
+		overflow: auto;
+	}
+	section{
+		width: 400px;
+		background-color: white;
+		border-radius: 5px;
+		margin:100px 520px 100px 440px;
+	}
+	.login-image{
+		height: 90px;
+		width: 90px;
+		border-radius: 45px;
+		border: 1px solid orange;
+		margin: 0px 0px 0px 150px;
+		position: absolute;
+		top: 50px;
+	}
+	.close{
+		float: right;
+		font-size: 25px;
+		padding: 10px;
+	}
+	h1{
+		/*margin-top:150px;*/
+		padding-top: 50px;
+		text-align: center;
+	}
+	.inputField{
+		width: 93%;
+   		height: 40px;
+   		margin: 10px;
+   		border-radius: 5px;
+	}
+	.inputField--button1{
+		background-color: rgb(231, 242, 231);
+		width: 94%;
+   		height: 47px;
+	}
+	.forgotPass{
+		background-color: gray;
+		text-align: center;
+		border:none;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		margin-top: 20px;
+		width: 100%;
+		height: 50px;
+	}
+
+	</style>
+</head>
+<body>
+	<section>
+		<div>		
+			<img src="images/shankr.jpg" alt="Shankar Login Img" class="login-image">
+		</div>
+		<div class="close">x</div>
+		<div>
+			<h1> Member Login</h1> 
+		</div>
+		<div>
+			<input type="text" name="Username" id="name" placeholder="Username" class="inputField">
+		</div>
+		<div>
+			<input type="password" name="Password" id="name" placeholder="Password" class="inputField">
+		</div>
+		<div>
+			<button class="inputField inputField--button1"> Login</button >
+		</div>
+		<div>
+			 <button class="forgotPass" >Forgot Password</button> 
+		</div>
+	</section>
+</body>
+</html>
